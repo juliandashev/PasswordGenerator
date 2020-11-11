@@ -18,13 +18,13 @@ def Widgets():
 
     # Username label its position in the GUI
     username_label = \
-        Label(win, text="Your username:", bg=bg_color, fg="white", font=global_font)
+        Label(win, text="Your username\nor e-mail:", bg=bg_color, fg="white", font=global_font)
 
     username_label.grid(row=2, column=0, padx=10, pady=10)
 
     # App name label its position in the GUI
     app_name_label = \
-        Label(win, text="Enter app:", bg=bg_color, fg="white", font=global_font)
+        Label(win, text="App name:", bg=bg_color, fg="white", font=global_font)
 
     app_name_label.grid(row=3, column=0, padx=10, pady=10)
 
